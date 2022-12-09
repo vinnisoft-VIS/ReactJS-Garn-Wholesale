@@ -1,0 +1,117 @@
+.completed-circle {
+  background-color: #ddc380;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.semi-completed-circle {
+  border: 1px solid #ddc380;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.incompleted-circle {
+  background-color: #f4f4f4;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.completed-line {
+  width: 35px;
+  height: 1px;
+  border: 1px solid #ddc380;
+  background-color: #ddc380;
+}
+.dotted-line {
+  width: 35px;
+  height: 1px;
+  border: 1px dashed #000000;
+}
+.next-line {
+  width: 35px;
+  height: 1px;
+  border: 1px solid #f4f4f4;
+}
+
+.vcenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-card {
+  width: 137.14px;
+  height: 137.14px;
+  border-radius: 13px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.img-card-active {
+  border: 2px solid #ddc380;
+}
+.img-box {
+  background-color: #ffefba;
+  width: 100%;
+  border-radius: 12px;
+  padding: 20% 25%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 0.75446px solid #5b5b64;
+  box-sizing: border-box;
+  border-radius: 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  //   overflow: hidden;
+}
+.circle:hover {
+  cursor: pointer;
+}
+.info-box {
+  background: #f7fafa;
+  border-radius: 12px;
+  padding: 30px 25px;
+}
+
+.img-drop-box {
+  width: 100%;
+  border: 1.5px dashed #c4c4c4;
+  border-radius: 9.05352px;
+}
+.img-drop-box-25 {
+  padding: 25%;
+}
+.small-img-drop-box {
+  width: 18%;
+  height: 95px;
+  border: 1.5px dashed #c4c4c4;
+  border-radius: 9.05352px;
+  overflow: hidden;
+  background-position: center;
+  background-size: contain;
+}
+.small-img-drop-box-5 {
+  padding: 5%;
+}
+.big label {
+  width: 100%;
+}
